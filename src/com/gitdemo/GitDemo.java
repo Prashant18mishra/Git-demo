@@ -1,10 +1,17 @@
 package com.gitdemo;
 
 public class GitDemo {
-
+   
+	public void addDta(String data) {
+		System.out.println("data="+data);
+		if(data.equals("java")) {
+			System.out.println("welcome");
+		}
+	}
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		System.out.println("Hello world");
 	}
 
 }
