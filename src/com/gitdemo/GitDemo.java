@@ -8,6 +8,9 @@ public class GitDemo {
 			System.out.println("welcome");
 		}
 	}
+	public void addedmethod(){
+		System.out.println("new method");
+	}
 	
 	public static void main(String[] args) {
 		
